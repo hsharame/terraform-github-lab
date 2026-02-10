@@ -5,8 +5,9 @@ terraform {
 			version = "~> 6.0"
 		}
 	}
+i
 }
 
 provider "github" {
-	owner = "hsharame"
+	owner = var.github_owner
 }

@@ -1,3 +1,7 @@
+variable "github_owner" {
+	type	= string
+}
+
 variable "repo_name" {
 	type	= string
 	default	= "terraform-github-repo"
